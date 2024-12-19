@@ -17,7 +17,7 @@ class ContactApp(App):
         
         # TextInput untuk nama
         self.name_input = TextInput(
-            hint_text='Nama',git 
+            hint_text='Nama',
             background_color=(218/255, 247/255, 166/255, 1),
             font_size=20,
             height=65,
@@ -26,7 +26,7 @@ class ContactApp(App):
 
         # TextInput untuk nomor telepon (hanya angka)
         self.phone_input = TextInput(
-            hint_text='Nomor Telepon',git 
+            hint_text='Nomor Telepon',
             background_color=(0.9, 0.9, 0.9, 1),
             font_size=20,
             height=65,

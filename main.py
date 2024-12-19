@@ -100,7 +100,7 @@ class ContactApp(App):
                 size_hint_x=0.2,
                 font_size=14,
                 background_color=(0.1, 0.5, 1, 1),
-                on_press=lambda instance, c_id=contact[0], c_name=contact[1], c_phone=contact[2]: self.edit_contact(c_id, c_name, c_phone)
+                on_press=lambda c_id=contact[0], c_name=contact[1], c_phone=contact[2]: self.edit_contact(c_id, c_name, c_phone)
             )
             contact_widget.add_widget(edit_button)
 
